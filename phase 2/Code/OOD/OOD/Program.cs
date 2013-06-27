@@ -15,7 +15,7 @@ namespace OOD
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ProcessTransition());
+            Application.Run(new BuildMeeting());
         }
     }
 }
