@@ -1,0 +1,4 @@
+namespace Meeting {
+	class Class {
+	};
+}

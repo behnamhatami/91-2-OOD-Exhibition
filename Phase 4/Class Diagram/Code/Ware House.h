@@ -1,0 +1,2 @@
+class Ware_House {
+};
