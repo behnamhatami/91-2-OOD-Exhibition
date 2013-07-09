@@ -1,6 +1,6 @@
 #include "Admin Role.h"
 
-User Admin_Role::createNewUser() {
+void Admin_Role::deleteUser() {
 	throw "Not yet implemented";
 }
 
@@ -8,7 +8,7 @@ boolean Admin_Role::editUserInfo() {
 	throw "Not yet implemented";
 }
 
-void Admin_Role::deleteUser() {
+User Admin_Role::createNewUser() {
 	throw "Not yet implemented";
 }
 

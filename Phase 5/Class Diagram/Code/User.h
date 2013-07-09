@@ -1,7 +1,7 @@
 class User {
 
 private:
-	string Username;
+	string username;
 	string first_name;
 	string family_name;
 	long phone_number;

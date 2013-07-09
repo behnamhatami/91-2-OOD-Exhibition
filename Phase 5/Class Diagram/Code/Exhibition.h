@@ -5,7 +5,7 @@ private:
 	string description;
 	User owner;
 	string full_description;
-	User charis;
+	User chairs;
 	Configuration configuration;
 	string state;
 
