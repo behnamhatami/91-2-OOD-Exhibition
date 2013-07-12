@@ -49,142 +49,166 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exhibition Execution\BoothProgress.cs">
+    <Compile Include="Exhibition\Consistency\Consistency_Rule.cs" />
+    <Compile Include="Exhibition\Consistency\Process.cs" />
+    <Compile Include="Exhibition\Initializer\Configuration.cs" />
+    <Compile Include="Exhibition\Initializer\Execution_Role.cs" />
+    <Compile Include="Exhibition\Progress\Booth\Booth.cs" />
+    <Compile Include="Exhibition\Progress\Booth\Exhibition_Map.cs" />
+    <Compile Include="Exhibition\Progress\Booth\Saloon.cs" />
+    <Compile Include="Exhibition\Progress\Peripherals\Payment.cs" />
+    <Compile Include="Exhibition\Progress\Peripherals\Post_Item.cs" />
+    <Compile Include="Exhibition\Progress\Peripherals\Post_Office.cs" />
+    <Compile Include="Exhibition\Progress\Peripherals\Ware_House.cs" />
+    <Compile Include="Exhibition\Progress\Peripherals\Ware_House_Item.cs" />
+    <Compile Include="Exhibition\Progress\Request\Booth_Construction_Request.cs" />
+    <Compile Include="Exhibition\Progress\Request\Booth_Registration_Request.cs" />
+    <Compile Include="Exhibition\Progress\Request\Customer_Request.cs" />
+    <Compile Include="Exhibition\Progress\Request\Request.cs" />
+    <Compile Include="Exhibition\Role\Booth_Manager_Role.cs" />
+    <Compile Include="Exhibition\Role\Chair_Role.cs" />
+    <Compile Include="Exhibition\Role\Execution_Role.cs" />
+    <Compile Include="Exhibition\Role\Exhibition_Role.cs" />
+    <Compile Include="Exhibition\Role\Inspector_Role.cs" />
+    <Compile Include="Exhibition\Role\Internal_Role.cs" />
+    <Compile Include="Exhibition\Role\Post_Keeper_Role.cs" />
+    <Compile Include="Exhibition\Role\Ware_House_Keeper_Role.cs" />
+    <Compile Include="GUI\Exhibition Execution\BoothProgress.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\BoothProgress.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\BoothProgress.Designer.cs">
       <DependentUpon>BoothProgress.cs</DependentUpon>
     </Compile>
-    <Compile Include="Informing System\BuildMeeting.cs">
+    <Compile Include="GUI\Informing System\BuildMeeting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Informing System\BuildMeeting.Designer.cs">
+    <Compile Include="GUI\Informing System\BuildMeeting.Designer.cs">
       <DependentUpon>BuildMeeting.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Definition\CompatibilityRules.cs">
+    <Compile Include="GUI\Exhibition Definition\CompatibilityRules.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Definition\CompatibilityRules.Designer.cs">
+    <Compile Include="GUI\Exhibition Definition\CompatibilityRules.Designer.cs">
       <DependentUpon>CompatibilityRules.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Definition\Configuration.cs">
+    <Compile Include="GUI\Exhibition Definition\Configuration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Definition\Configuration.Designer.cs">
+    <Compile Include="GUI\Exhibition Definition\Configuration.Designer.cs">
       <DependentUpon>Configuration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Definition\Consistency.cs">
+    <Compile Include="GUI\Exhibition Definition\Consistency.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Definition\Consistency.Designer.cs">
+    <Compile Include="GUI\Exhibition Definition\Consistency.Designer.cs">
       <DependentUpon>Consistency.cs</DependentUpon>
     </Compile>
-    <Compile Include="Informing System\CreatePoll.cs">
+    <Compile Include="GUI\Informing System\CreatePoll.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Informing System\CreatePoll.Designer.cs">
+    <Compile Include="GUI\Informing System\CreatePoll.Designer.cs">
       <DependentUpon>CreatePoll.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\CustomerInteraction.cs">
+    <Compile Include="GUI\Exhibition Execution\CustomerInteraction.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\CustomerInteraction.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\CustomerInteraction.Designer.cs">
       <DependentUpon>CustomerInteraction.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Definition\Exhibition.cs">
+    <Compile Include="GUI\Exhibition Definition\Exhibition.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Definition\Exhibition.Designer.cs">
+    <Compile Include="GUI\Exhibition Definition\Exhibition.Designer.cs">
       <DependentUpon>Exhibition.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Definition\ExhibitionSpecification.cs">
+    <Compile Include="GUI\Exhibition Definition\ExhibitionSpecification.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Definition\ExhibitionSpecification.Designer.cs">
+    <Compile Include="GUI\Exhibition Definition\ExhibitionSpecification.Designer.cs">
       <DependentUpon>ExhibitionSpecification.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\FinishExhibition.cs">
+    <Compile Include="GUI\Exhibition Execution\FinishExhibition.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\FinishExhibition.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\FinishExhibition.Designer.cs">
       <DependentUpon>FinishExhibition.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Definition\FreezePoll.cs">
+    <Compile Include="GUI\Exhibition Definition\FreezePoll.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Definition\FreezePoll.Designer.cs">
+    <Compile Include="GUI\Exhibition Definition\FreezePoll.Designer.cs">
       <DependentUpon>FreezePoll.cs</DependentUpon>
     </Compile>
-    <Compile Include="Informing System\Informing.cs">
+    <Compile Include="GUI\Informing System\Informing.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Informing System\Informing.Designer.cs">
+    <Compile Include="GUI\Informing System\Informing.Designer.cs">
       <DependentUpon>Informing.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\Inspector.cs">
+    <Compile Include="GUI\Exhibition Execution\Inspector.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\Inspector.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\Inspector.Designer.cs">
       <DependentUpon>Inspector.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\Judge.cs">
+    <Compile Include="GUI\Exhibition Execution\Judge.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\Judge.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\Judge.Designer.cs">
       <DependentUpon>Judge.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Definition\ManagingRoles.cs">
+    <Compile Include="GUI\Exhibition Definition\ManagingRoles.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Definition\ManagingRoles.Designer.cs">
+    <Compile Include="GUI\Exhibition Definition\ManagingRoles.Designer.cs">
       <DependentUpon>ManagingRoles.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\MapCRUD.cs">
+    <Compile Include="GUI\Exhibition Execution\MapCRUD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\MapCRUD.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\MapCRUD.Designer.cs">
       <DependentUpon>MapCRUD.cs</DependentUpon>
     </Compile>
-    <Compile Include="Informing System\News.cs">
+    <Compile Include="GUI\Informing System\News.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Informing System\News.Designer.cs">
+    <Compile Include="GUI\Informing System\News.Designer.cs">
       <DependentUpon>News.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\Opinion.cs">
+    <Compile Include="GUI\Exhibition Execution\Opinion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\Opinion.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\Opinion.Designer.cs">
       <DependentUpon>Opinion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\Post.cs">
+    <Compile Include="GUI\Exhibition Execution\Post.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\Post.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\Post.Designer.cs">
       <DependentUpon>Post.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\ProcessTransition.cs">
+    <Compile Include="GUI\Exhibition Execution\ProcessTransition.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\ProcessTransition.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\ProcessTransition.Designer.cs">
       <DependentUpon>ProcessTransition.cs</DependentUpon>
     </Compile>
-    <Compile Include="Reports\BoothReport.cs">
+    <Compile Include="GUI\Reports\BoothReport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Reports\BoothReport.Designer.cs">
+    <Compile Include="GUI\Reports\BoothReport.Designer.cs">
       <DependentUpon>BoothReport.cs</DependentUpon>
     </Compile>
-    <Compile Include="Reports\HistoricalReport.cs">
+    <Compile Include="GUI\Reports\HistoricalReport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Reports\HistoricalReport.Designer.cs">
+    <Compile Include="GUI\Reports\HistoricalReport.Designer.cs">
       <DependentUpon>HistoricalReport.cs</DependentUpon>
     </Compile>
-    <Compile Include="User Managing\Login.cs">
+    <Compile Include="GUI\User Managing\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="User Managing\Login.Designer.cs">
+    <Compile Include="GUI\User Managing\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.cs">
@@ -193,150 +217,164 @@
     <Compile Include="MainWindow.Designer.cs">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Notification\Meeting.cs" />
+    <Compile Include="Notification\News.cs" />
+    <Compile Include="Notification\Notification.cs" />
+    <Compile Include="Notification\Poll.cs" />
+    <Compile Include="Notification\Poll_Choice.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Reports\ProgressReport.cs">
+    <Compile Include="GUI\Reports\ProgressReport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Reports\ProgressReport.Designer.cs">
+    <Compile Include="GUI\Reports\ProgressReport.Designer.cs">
       <DependentUpon>ProgressReport.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reports\TimmingReport.cs">
+    <Compile Include="GUI\Reports\TimmingReport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Reports\TimmingReport.Designer.cs">
+    <Compile Include="GUI\Reports\TimmingReport.Designer.cs">
       <DependentUpon>TimmingReport.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\RequestBooth.cs">
+    <Compile Include="GUI\Exhibition Execution\RequestBooth.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\RequestBooth.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\RequestBooth.Designer.cs">
       <DependentUpon>RequestBooth.cs</DependentUpon>
     </Compile>
-    <Compile Include="Informing System\RequestEnterance.cs">
+    <Compile Include="GUI\Informing System\RequestEnterance.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Informing System\RequestEnterance.Designer.cs">
+    <Compile Include="GUI\Informing System\RequestEnterance.Designer.cs">
       <DependentUpon>RequestEnterance.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\RespondBoothRequest.cs">
+    <Compile Include="GUI\Exhibition Execution\RespondBoothRequest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\RespondBoothRequest.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\RespondBoothRequest.Designer.cs">
       <DependentUpon>RespondBoothRequest.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\RunPoll.cs">
+    <Compile Include="GUI\Exhibition Execution\RunPoll.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\RunPoll.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\RunPoll.Designer.cs">
       <DependentUpon>RunPoll.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\StartExhibition.cs">
+    <Compile Include="GUI\Exhibition Execution\StartExhibition.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\StartExhibition.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\StartExhibition.Designer.cs">
       <DependentUpon>StartExhibition.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\Transaction.cs">
+    <Compile Include="GUI\Exhibition Execution\Transaction.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\Transaction.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\Transaction.Designer.cs">
       <DependentUpon>Transaction.cs</DependentUpon>
     </Compile>
-    <Compile Include="User Managing\UserCRUD.cs">
+    <Compile Include="GUI\User Managing\UserCRUD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="User Managing\UserCRUD.Designer.cs">
+    <Compile Include="GUI\User Managing\UserCRUD.Designer.cs">
       <DependentUpon>UserCRUD.cs</DependentUpon>
     </Compile>
-    <Compile Include="Informing System\ViewInvitation.cs">
+    <Compile Include="GUI\Informing System\ViewInvitation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Informing System\ViewInvitation.Designer.cs">
+    <Compile Include="GUI\Informing System\ViewInvitation.Designer.cs">
       <DependentUpon>ViewInvitation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exhibition Execution\Warehouse.cs">
+    <Compile Include="GUI\Exhibition Execution\Warehouse.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exhibition Execution\Warehouse.Designer.cs">
+    <Compile Include="GUI\Exhibition Execution\Warehouse.Designer.cs">
       <DependentUpon>Warehouse.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Exhibition Execution\BoothProgress.resx">
+    <Compile Include="Report\Inspector_Report.cs" />
+    <Compile Include="Report\Report.cs" />
+    <Compile Include="Report\Visitor_Report.cs" />
+    <Compile Include="User\Admin_Role.cs" />
+    <Compile Include="User\Customer_Role.cs" />
+    <Compile Include="User\Internal_Role.cs" />
+    <Compile Include="User\Public_Role.cs" />
+    <Compile Include="User\User.cs" />
+    <Compile Include="User\User_Role.cs" />
+    <EmbeddedResource Include="GUI\Exhibition Execution\BoothProgress.resx">
       <DependentUpon>BoothProgress.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Informing System\BuildMeeting.resx">
+    <EmbeddedResource Include="GUI\Informing System\BuildMeeting.resx">
       <DependentUpon>BuildMeeting.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Definition\CompatibilityRules.resx">
+    <EmbeddedResource Include="GUI\Exhibition Definition\CompatibilityRules.resx">
       <DependentUpon>CompatibilityRules.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Definition\Configuration.resx">
+    <EmbeddedResource Include="GUI\Exhibition Definition\Configuration.resx">
       <DependentUpon>Configuration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Definition\Consistency.resx">
+    <EmbeddedResource Include="GUI\Exhibition Definition\Consistency.resx">
       <DependentUpon>Consistency.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Informing System\CreatePoll.resx">
+    <EmbeddedResource Include="GUI\Informing System\CreatePoll.resx">
       <DependentUpon>CreatePoll.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\CustomerInteraction.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\CustomerInteraction.resx">
       <DependentUpon>CustomerInteraction.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Definition\Exhibition.resx">
+    <EmbeddedResource Include="GUI\Exhibition Definition\Exhibition.resx">
       <DependentUpon>Exhibition.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Definition\ExhibitionSpecification.resx">
+    <EmbeddedResource Include="GUI\Exhibition Definition\ExhibitionSpecification.resx">
       <DependentUpon>ExhibitionSpecification.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\FinishExhibition.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\FinishExhibition.resx">
       <DependentUpon>FinishExhibition.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Definition\FreezePoll.resx">
+    <EmbeddedResource Include="GUI\Exhibition Definition\FreezePoll.resx">
       <DependentUpon>FreezePoll.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Informing System\Informing.resx">
+    <EmbeddedResource Include="GUI\Informing System\Informing.resx">
       <DependentUpon>Informing.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\Inspector.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\Inspector.resx">
       <DependentUpon>Inspector.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\Judge.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\Judge.resx">
       <DependentUpon>Judge.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Definition\ManagingRoles.resx">
+    <EmbeddedResource Include="GUI\Exhibition Definition\ManagingRoles.resx">
       <DependentUpon>ManagingRoles.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\MapCRUD.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\MapCRUD.resx">
       <DependentUpon>MapCRUD.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Informing System\News.resx">
+    <EmbeddedResource Include="GUI\Informing System\News.resx">
       <DependentUpon>News.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\Opinion.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\Opinion.resx">
       <DependentUpon>Opinion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\Post.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\Post.resx">
       <DependentUpon>Post.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\ProcessTransition.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\ProcessTransition.resx">
       <DependentUpon>ProcessTransition.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reports\BoothReport.resx">
+    <EmbeddedResource Include="GUI\Reports\BoothReport.resx">
       <DependentUpon>BoothReport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reports\HistoricalReport.resx">
+    <EmbeddedResource Include="GUI\Reports\HistoricalReport.resx">
       <DependentUpon>HistoricalReport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="User Managing\Login.fa.resx">
+    <EmbeddedResource Include="GUI\User Managing\Login.fa.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="User Managing\Login.resx">
+    <EmbeddedResource Include="GUI\User Managing\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reports\ProgressReport.resx">
+    <EmbeddedResource Include="GUI\Reports\ProgressReport.resx">
       <DependentUpon>ProgressReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -348,34 +386,34 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Reports\TimmingReport.resx">
+    <EmbeddedResource Include="GUI\Reports\TimmingReport.resx">
       <DependentUpon>TimmingReport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\RequestBooth.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\RequestBooth.resx">
       <DependentUpon>RequestBooth.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Informing System\RequestEnterance.resx">
+    <EmbeddedResource Include="GUI\Informing System\RequestEnterance.resx">
       <DependentUpon>RequestEnterance.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\RespondBoothRequest.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\RespondBoothRequest.resx">
       <DependentUpon>RespondBoothRequest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\RunPoll.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\RunPoll.resx">
       <DependentUpon>RunPoll.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\StartExhibition.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\StartExhibition.resx">
       <DependentUpon>StartExhibition.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\Transaction.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\Transaction.resx">
       <DependentUpon>Transaction.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="User Managing\UserCRUD.resx">
+    <EmbeddedResource Include="GUI\User Managing\UserCRUD.resx">
       <DependentUpon>UserCRUD.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Informing System\ViewInvitation.resx">
+    <EmbeddedResource Include="GUI\Informing System\ViewInvitation.resx">
       <DependentUpon>ViewInvitation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Exhibition Execution\Warehouse.resx">
+    <EmbeddedResource Include="GUI\Exhibition Execution\Warehouse.resx">
       <DependentUpon>Warehouse.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
